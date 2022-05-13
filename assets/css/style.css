@@ -304,6 +304,11 @@ h6 {
         display: none;
     }
 }
+@media (max-width: 991px) {
+  .navbar-collapse >  ul {
+      display: block;
+  }
+}
 
 .navbar-mobile {
     position: fixed;
@@ -325,7 +330,7 @@ h6 {
 
 .navbar-mobile ul {
     display: block;
-    position: absolute;
+    position: relative;
     top: 55px;
     right: 15px;
     bottom: 15px;
